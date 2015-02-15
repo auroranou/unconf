@@ -1,517 +1,577 @@
 [ { "langName": "Java",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["James Gosling"], 
+    	"country": ["United States"], 
+    	"year": "1995" 
+    } 
+  },
   { "langName": "JavaScript",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Brendan Eich"], 
+    	"country": ["United States"], 
+    	"year": "1995" 
+    } 
+  },
   { "langName": "PHP",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Rasmus Lerdorf"], 
+    	"country": ["Greenland"], 
+    	"year": "1995" 
+    }
+  },
   { "langName": "Python",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Guido van Rossum"], 
+    	"country": ["Netherlands"], 
+    	"year": "1991" 
+    } 
+  },
   { "langName": "C++",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Bjarne Stroustrup"], 
+    	"country": ["Denmark"], 
+    	"year": "1983" 
+    } 
+  },
   { "langName": "C#",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Microsoft"], 
+    	"country": ["United States"], 
+    	"year": "2000" 
+    } 
+  },
   { "langName": "Ruby",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Yukihiro Matsumoto"], 
+    	"country": ["Japan"], 
+    	"year": "1995" 
+    } 
+  },
   { "langName": "Objective-C",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Brad Cox", "Tom Love"], 
+    	"country": ["United States"], 
+    	"year": "1983" 
+    } 
+  },
   { "langName": "C",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Dennis Ritchie"], 
+    	"country": ["United States"], 
+    	"year": "1972" 
+    } 
+  },
   { "langName": "Perl",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Larry Wall"], 
+    	"country": ["United States"], 
+    	"year": "1987" 
+    } 
+  },
   { "langName": "Shell",
     "properties": { 
     	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"creator": [""], 
+    	"country": [""], 
+    	"year": "" 
+    } 
+  },
   { "langName": "Scala",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Martin Odersky"], 
+    	"country": ["Switzerland"], 
+    	"year": "2003" 
+    } 
+  },
   { "langName": "Haskell",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Simon Peyton Jones et al"], 
+    	"country": ["United States", "Sweden", "Netherlands", "United Kingdom"], 
+    	"year": "1990" 
+    } 
+  },
   { "langName": "R",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Ross Ihaka", "Robert Gentleman]"], 
+    	"country": ["New Zealand"], 
+    	"year": "1993" 
+    } 
+  },
   { "langName": "Matlab",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Cleve Moler"], 
+    	"country": ["United States"], 
+    	"year": "1978" 
+    } 
+  },
   { "langName": "ActionScript",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Gary Grossman"], 
+    	"country": ["United States"], 
+    	"year": "1998" 
+    } 
+  },
   { "langName": "Groovy",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["James Strachan"], 
+    	"country": ["England"], 
+    	"year": "2003" 
+    } 
+  },
   { "langName": "Clojure",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Rich Hickey"], 
+    	"country": ["United States"], 
+    	"year": "2007" 
+    } 
+  },
   { "langName": "Lua",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Roberto Ierusalimschy", "Waldemar Celes", "Luiz Henrique de Figueiredo"], 
+    	"country": ["Brazil"], 
+    	"year": "1993" 
+    } 
+  },
   { "langName": "Erlang",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Joe Armstrong", "Robert Virdin]g", "Mike Williams"], 
+    	"country": "Sweden", 
+    	"year": "1986" 
+    } 
+  },
   { "langName": "Go",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Robert Griesemer", "Rob Pike", "Ken Thompson"], 
+    	"country": "United States", 
+    	"year": "2009" 
+    } 
+  },
   { "langName": "CoffeeScript",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Jeremy Ashkenas"], 
+    	"country": ["United States"], 
+    	"year": "2009" 
+    } 
+  },
   { "langName": "Visual Basic",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Delphi",
+    	"humanLang": ["English"], 
+    	"creator": ["Microsoft"], 
+    	"country": ["United States"], 
+    	"year": "1991" 
+    } 
+  },
+  { "langName": "Embarcadero Delphi",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Borland"], 
+    	"country": ["United States"], 
+    	"year": "1995" 
+    } 
+  },
   { "langName": "Powershell",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Assembly",
+    	"humanLang": ["English"], 
+    	"creator": ["Microsoft"], 
+    	"country": ["United States"], 
+    	"year": "2006" 
+    } 
+  },
+  { "langName": "CFML",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Emacs Lisp",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "ASP",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "ColdFusion",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Jeremy Allaire"], 
+    	"country": ["United States"], 
+    	"year": "1995" 
+    } 
+  },
   { "langName": "Scheme",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Guy L. Steele", "Gerald Ja]y Sussman"], 
+    	"country": ["United States"], 
+    	"year": "1975" 
+    } 
+  },
   { "langName": "Prolog",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Alain Colmerauer"], 
+    	"country": ["France"], 
+    	"year": "1972" 
+    } 
+  },
   { "langName": "Arduino",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Arduino"], 
+    	"country": ["Italy"], 
+    	"year": "2005" 
+    } 
+  },
   { "langName": "Tcl",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["John Ousterhout"], 
+    	"country": ["United States"], 
+    	"year": "1988" 
+    } 
+  },
   { "langName": "FORTRAN",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["John Backus"], 
+    	"country": ["United States"], 
+    	"year": "1957" 
+    } 
+  },
   { "langName": "Dart",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Lars Bak", "Kasper Lund"], 
+    	"country": ["Denmark"], 
+    	"year": "2013" 
+    } 
+  },
   { "langName": "D",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Puppet",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Walter Bright", "Andrei Alexandrescu"], 
+    	"country": ["United States", "Romania"], 
+    	"year": "2001" 
+    } 
+  },
   { "langName": "TypeScript",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Microsoft"], 
+    	"country": ["United States"], 
+    	"year": "2012" 
+    } 
+  },
   { "langName": "Processing",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Casey Reas", "Benjamin Fry"], 
+    	"country": ["United States"], 
+    	"year": "2001" 
+    } 
+  },
   { "langName": "Racket",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["PLT Inc."], 
+    	"country": ["United States"], 
+    	"year": "1994" 
+    } 
+  },
   { "langName": "Smalltalk",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Alan Kay", "Dan Ingalls", "Adele Goldberg"],
+    	"country": "United States", 
+    	"year": "1972" 
+    } 
+  },
   { "langName": "HaXe",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Nicolas Cannasse"], 
+    	"country": ["France"], 
+    	"year": "2005" 
+    } 
+  },
   { "langName": "Vala",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Jürg Billeter", "Raffaele Sandrini"], 
+    	"country": ["Switzerland"], 
+    	"year": "2006" 
+    } 
+  },
   { "langName": "Verilog",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Apex",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Prabhu Goel", "Phil Moorby"], 
+    	"country": ["United States", "United Kingdo]m"], 
+    	"year": "1984" 
+    } 
+  },
   { "langName": "AutoHotkey",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Chris Mallet", "Steve Gray"], 
+    	"country": ["United States"], 
+    	"year": "2003" 
+    } 
+  },
   { "langName": "Pascal",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "TeX",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Niklaus Wirth"], 
+    	"country": ["Switzerland"], 
+    	"year": "1970" 
+    } 
+  },
   { "langName": "Standard ML",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": [""], 
+    	"country": [""], 
+    	"year": "" 
+    } 
+  },
   { "langName": "Ada",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Jean Ichbiah"], 
+    	"country": ["France"], 
+    	"year": "1980" 
+    } 
+  },
   { "langName": "OpenEdge ABL",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Progress Software Corporation"], 
+    	"country": ["United States"], 
+    	"year": "1984" 
+    } 
+  },
   { "langName": "Rust",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Graydon Hoare"], 
+    	"country": ["United States"], 
+    	"year": "2012" 
+    } 
+  },
   { "langName": "Coq",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "DOT",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Thierry Coquand, Gérard Huet, et al"],
+    	"country": ["France"], 
+    	"year": "1984" 
+    } 
+  },
   { "langName": "XQuery",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["W3C"], 
+    	"country": ["United States"], 
+    	"year": "2007" 
+    } 
+  },
   { "langName": "AppleScript",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Apple, Inc."], 
+    	"country": ["United States"], 
+    	"year": "1993" 
+    } 
+  },
   { "langName": "Scilab",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": [["English"], "German", "Spanish", "French", "Italian", "Japanese", "Portuguese", "Russian", "Ukrainian", "Chinese", "Czech", "Polish"], 
+    	"creator": ["Scilab Enterprises"], 
+    	"country": ["France"], 
+    	"year": "1990" 
+    } 
+  },
   { "langName": "Julia",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Jeff Bezanson", "Stefan Karpinski", "Viral B. Shah", "Alan Edelman"], 
+    	"country": "United States", 
+    	"year": "2012" 
+    } 
+  },
   { "langName": "Elixir",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Logos",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["José Valim"], 
+    	"country": ["Brazil"], 
+    	"year": "2012" 
+    } 
+  },
   { "langName": "Common Lisp",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Scott Fahlman", "Richard P. Ga]briel", "Dave Moon", "Guy Steele", "Dan Weinreb"], 
+    	"country": "United States", 
+    	"year": "1984" 
+    } 
+  },
   { "langName": "Io",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Steve Dekorte"], 
+    	"country": ["United States"], 
+    	"year": "2002" 
+    } 
+  },
   { "langName": "Awk",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Object-J",
+    	"humanLang": ["English"], 
+    	"creator": ["Alfred Aho", "Peter Weinberger", "Brian Kernighan"], 
+    	"country": ["Canada", "United States"], 
+    	"year": "1977" 
+    } 
+  },
+  { "langName": "Objective-J",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Cappucino Core developers"], 
+    	"country": [""], 
+    	"year": "2008" 
+    } 
+  },
   { "langName": "Nemerle",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Kamil Skalski", "Michał Moskal", "Leszek Pacholski", "Paweł Olszta"], 
+    	"country": "Poland", 
+    	"year": "2003" 
+    } 
+  },
   { "langName": "Lasso",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Kyle Jessup"], 
+    	"country": ["United States"], 
+    	"year": "1995" 
+    } 
+  },
   { "langName": "Eiffel",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Bertrand Meyer"], 
+    	"country": ["France"], 
+    	"year": "1986" 
+    } 
+  },
   { "langName": "SuperCollider",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["James McCartney et al"], 
+    	"country": ["United States"], 
+    	"year": "1996" 
+    } 
+  },
   { "langName": "Oxygene",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "nesC",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["RemObjects Software"], 
+    	"country": ["United States"], 
+    	"year": "" 
+    } 
+  },
   { "langName": "Pure Data",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Parrot",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "LiveScript",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Miller Puckette"], 
+    	"country": ["United States"], 
+    	"year": "1996" 
+    } 
+    },
   { "langName": "Kotlin",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "DCPU-16 ASM",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["JetBrains"], 
+    	"country": ["Russia"], 
+    	"year": "2011" 
+    } 
+  },
   { "langName": "Xtend",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": [""], 
+    	"creator": ["Sven Efftinge", "Sebastian Zam]ekow"], 
+    	"country": ["Germany"], 
+    	"year": "2011" 
+    } 
+  },
   { "langName": "IDL",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["David Stern"], 
+    	"country": ["United States"], 
+    	"year": "1977" 
+    } 
+  },
   { "langName": "Factor",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Slava Pestov"], 
+    	"country": [""], 
+    	"year": "2003" 
+    } 
+  },
   { "langName": "Boo",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Rodrigo B. De Oliveira"], 
+    	"country": ["Brazil"], 
+    	"year": "2003" 
+    } 
+  },
   { "langName": "Ceylon",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Gavin King", "Red Hat"], 
+    	"country": ["Australia"], 
+    	"year": "2011" 
+    } 
+  },
+  { "langName": "F#",
+    "properties": { 
+      "humanLang": ["English"], 
+      "creator": ["Don Syme"], 
+      "country": ["Australia"], 
+      "year": "2005" 
+    } 
+  },
   { "langName": "M",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Neil Pappalardo"], 
+    	"country": ["United States"], 
+    	"year": "1996" 
+    } 
+  },
   { "langName": "Gosu",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
+    	"humanLang": ["English"], 
+    	"creator": ["Guidewire Software"], 
+    	"country": [""], 
+    	"year": "2010" 
+    } 
+  },
   { "langName": "Dylan",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "Nimrod",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "XProc",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } },
-  { "langName": "ooc",
-    "properties": { 
-    	"humanLang": "", 
-    	"creator": "", 
-    	"country": "", 
-    	"year": "" } } 
+    	"humanLang": ["English"], 
+    	"creator": ["Apple Computer", "Harlequin", "Carnegie Mellon University"], 
+    	"country": "United States", 
+    	"year": "1992" 
+    } 
+  }
 ]
