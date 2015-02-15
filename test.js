@@ -10,10 +10,11 @@ $(document).ready(function(){
 
 	$.ajax({
 		type: 'GET',
-		url: 'test.json',
+		url: 'http://rawgit.com/auroranou/unconf/master/test.json',
 		dataType: 'json',
 		success: function(response){
 			console.log(response);
+			newLayer.setGeoJSON(response);
 		}
 	});
 
