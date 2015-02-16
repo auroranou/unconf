@@ -1,4 +1,37 @@
-[ { "langName": "Java",
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+var languages = require('./languages');
+var arr = [];
+var url = 'http://api.tiles.mapbox.com/v4/geocode/mapbox.places-permanent/'
+
+for (var i = 0; i < languages.length; i++){
+	var countries = languages[i].properties.country;
+	for (var j = 0; j < countries.length; j++){
+		if (arr.indexOf(countries[j]) == -1){
+			arr.push(countries[j]);
+		}
+	}
+}
+
+for (var i = 0; i < arr.length; i++){
+	url += (arr[i].replace(/\ /g, '+') + ';');
+}
+
+console.log(url)
+
+$.ajax({
+	type: 'GET',
+	url: url + '.json?access_token=pk.eyJ1IjoiYXVyb3Jhbm91IiwiYSI6IlJZTGp0dWMifQ.SS0yA6UMyjX7lUyMG02iBw',
+	dataType: 'json',
+	success: function(response){
+		for (var i = 0; i < response.length; i++){
+			console.log(response[i]["features"][0]["text"], response[i]["features"][0]["center"]);
+		}
+	}
+});
+
+},{"./languages":2}],2:[function(require,module,exports){
+module.exports = [ 
+  { "langName": "Java",
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["James Gosling"], 
@@ -80,9 +113,9 @@
   },
   { "langName": "Shell",
     "properties": { 
-    	"humanLang": "", 
-    	"creator": [""], 
-    	"country": [""], 
+    	"humanLang": [], 
+    	"creator": [], 
+    	"country": [], 
     	"year": "" 
     } 
   },
@@ -154,7 +187,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Joe Armstrong", "Robert Virdin]g", "Mike Williams"], 
-    	"country": "Sweden", 
+    	"country": ["Sweden"], 
     	"year": "1986" 
     } 
   },
@@ -162,7 +195,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Robert Griesemer", "Rob Pike", "Ken Thompson"], 
-    	"country": "United States", 
+    	"country": ["United States"], 
     	"year": "2009" 
     } 
   },
@@ -290,7 +323,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Alan Kay", "Dan Ingalls", "Adele Goldberg"],
-    	"country": "United States", 
+    	"country": ["United States"], 
     	"year": "1972" 
     } 
   },
@@ -314,7 +347,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Prabhu Goel", "Phil Moorby"], 
-    	"country": ["United States", "United Kingdo]m"], 
+    	"country": ["United States", "United Kingdom"], 
     	"year": "1984" 
     } 
   },
@@ -337,8 +370,8 @@
   { "langName": "Standard ML",
     "properties": { 
     	"humanLang": ["English"], 
-    	"creator": [""], 
-    	"country": [""], 
+    	"creator": [], 
+    	"country": [], 
     	"year": "" 
     } 
   },
@@ -402,7 +435,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Jeff Bezanson", "Stefan Karpinski", "Viral B. Shah", "Alan Edelman"], 
-    	"country": "United States", 
+    	"country": ["United States"], 
     	"year": "2012" 
     } 
   },
@@ -418,7 +451,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Scott Fahlman", "Richard P. Ga]briel", "Dave Moon", "Guy Steele", "Dan Weinreb"], 
-    	"country": "United States", 
+    	"country": ["United States"], 
     	"year": "1984" 
     } 
   },
@@ -442,7 +475,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Cappucino Core developers"], 
-    	"country": [""], 
+    	"country": [], 
     	"year": "2008" 
     } 
   },
@@ -450,7 +483,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Kamil Skalski", "Michał Moskal", "Leszek Pacholski", "Paweł Olszta"], 
-    	"country": "Poland", 
+    	"country": ["Poland"], 
     	"year": "2003" 
     } 
   },
@@ -504,7 +537,7 @@
   },
   { "langName": "Xtend",
     "properties": { 
-    	"humanLang": [""], 
+    	"humanLang": [], 
     	"creator": ["Sven Efftinge", "Sebastian Zam]ekow"], 
     	"country": ["Germany"], 
     	"year": "2011" 
@@ -522,7 +555,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Slava Pestov"], 
-    	"country": [""], 
+    	"country": [], 
     	"year": "2003" 
     } 
   },
@@ -562,7 +595,7 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Guidewire Software"], 
-    	"country": [""], 
+    	"country": [], 
     	"year": "2010" 
     } 
   },
@@ -570,8 +603,10 @@
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["Apple Computer", "Harlequin", "Carnegie Mellon University"], 
-    	"country": "United States", 
+    	"country": ["United States"], 
     	"year": "1992" 
     } 
   }
 ]
+
+},{}]},{},[1]);

@@ -8,20 +8,10 @@ $(document).ready(function(){
 
 	var newLayer = L.mapbox.featureLayer().addTo(map);
 
-	$.ajax({
-		type: 'GET',
-		url: 'http://rawgit.com/auroranou/unconf/master/test.json',
-		dataType: 'json',
-		success: function(response){
-			console.log(response);
-			newLayer.setGeoJSON(response);
-		}
-	});
-
 	// var file = fs.readFileSync(__dirname + 'test.json', 'utf8');
 	// var geoJson = JSON.parse(file);
 	// console.log(geoJson)
 
-	// newLayer.setGeoJSON(geoJson);
+	newLayer.setGeoJSON(geojson);
 
 });
