@@ -6,11 +6,9 @@ $(document).ready(function(){
     .addLayer(L.mapbox.tileLayer('examples.map-20v6611k'));
 
 	var featureLayer = L.mapbox.featureLayer().addTo(map);
+  var clusterGroup = new L.MarkerClusterGroup()
 	var geoJsonLayer = L.geoJson(geojson);
-
-  featureLayer.on('ready', function() {
-	  var clusterGroup = L.MarkerClusterGroup();
-	  clusterGroup.addLayer(geoJsonLayer);
-	  map.addLayer(clusterGroup);
-  });
+  
+  clusterGroup.addLayer(geoJsonLayer);
+	map.addLayer(clusterGroup);
 });
