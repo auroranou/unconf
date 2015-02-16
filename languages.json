@@ -1,5 +1,4 @@
-module.exports = [ 
-  { "langName": "Java",
+[ { "langName": "Java",
     "properties": { 
     	"humanLang": ["English"], 
     	"creator": ["James Gosling"], 

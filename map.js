@@ -94,9 +94,9 @@ var arr = [
 var newArr = arr.map(function(lang) {
 	return { langName: lang, 
 		properties: { 
-			humanLang: "",
-			creator: "",
-			country: "",
+			humanLang: [],
+			creator: [],
+			country: [],
 			year: ""
 		} 
 	}
