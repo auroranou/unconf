@@ -4,12 +4,9 @@
 	<meta charset=utf-8 />
 	<title>test!</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script type="text/javascript" src="map_icons.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
-	<script type="text/javascript" src="data.js"></script>
-	<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-	<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-	<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
 	<style>
 	  body { margin:0; padding:0; }
@@ -26,12 +23,14 @@
 	    .addLayer(L.mapbox.tileLayer('examples.map-20v6611k'));
 
 		var featureLayer = L.mapbox.featureLayer().addTo(map);
-	  var clusterGroup = new L.MarkerClusterGroup()
-	  // pull geojson data from data.js file
-		var geoJsonLayer = L.geoJson(geojson);
-	  
-	  clusterGroup.addLayer(geoJsonLayer);
-		map.addLayer(clusterGroup);
+
+		featureLayer.on('layeradd', function(e) {
+	    var marker = e.layer,
+	    feature = marker.feature;
+	    marker.setIcon(L.icon(feature.properties.icon));
+	  });
+		// Add features to the map.
+		featureLayer.setGeoJSON(mapIcons);
 	</script>
 </body>
 </html>

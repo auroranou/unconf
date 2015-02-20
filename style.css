@@ -1,0 +1,21 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+#map { 
+	height: 80vh;
+	width:100%; 
+}
