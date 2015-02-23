@@ -46,8 +46,7 @@ div.imageText {
   text-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 }
 
-/*div.code {
-  font-family: 'Courier', monospace;
+div.code {
   letter-spacing: 0;
-  font-size: 5em !important;
-}*/
+  font-family: 'Courier', monospace;
+}
