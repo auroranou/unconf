@@ -3,9 +3,14 @@
 ## Summary
 This is my presentation for the Web Development Immersive Unconference at General Assembly on Feb. 19 and 20, 2015.
 
-The original reason I looked into this topic is because I wanted to know how non-Anglo developers get into coding. If all popular contemporary programming languages are built in English, how does that affect tech's barriers to entry for those who don't speak the language? And if keywords and methods are defined semantically in English, how does the learning curve compare for native and non-native speakers? In short, who is disadvantaged?
+The original reason I looked into this topic is because I wanted to know how non-Anglo developers get into coding. If all popular contemporary programming languages are built in English, how does that affect tech's barriers to entry for those who don't speak the language? And if keywords and methods are defined semantically in English, how does the learning curve compare for native and non-native speakers? In short, who is able to participate in the digital economy?
 
-Technology has made the world smaller in countless ways, but as a community we should critically examine who is able to participate in the digital economy.
+The presentation covers geographical distribution of programming language creators and a few examples of Non-English and esoteric languages. These are: 
++ Pauscal (Spanish)
++ qlb (Arabic)
++ Brainfuck
++ Piet
++ LOLCODE
 
 ## Contents
 + Two maps showing the countries of origin of authors of popular programming languages
